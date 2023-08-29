@@ -1,4 +1,4 @@
-class SliDesk < Formula
+class Slidesk < Formula
     desc "Speaker companion"
     homepage "https://github.com/gouz/homebrew-tools"
     version "1.2.2"

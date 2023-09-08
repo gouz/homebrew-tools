@@ -1,7 +1,7 @@
 class Slidesk < Formula
     desc "Speaker companion"
     homepage "https://github.com/gouz/homebrew-tools"
-    version "1.4.0"
+    version "1.4.1"
 
     on_macos do
         url "https://github.com/gouz/slidesk/archive/refs/tags/1.4.1.tar.gz"

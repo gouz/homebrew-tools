@@ -9,7 +9,7 @@ class Slidesk < Formula
         sha256 "0df82a7c0ec95e9e8124af7a791899834596ac49a5e4fbce6082e7835012df1a"
 
         def install
-            bin.install "exe/slidesk" => "slidesk"
+            bin.install "slidesk" => "slidesk"
         end
     end
 end

@@ -6,7 +6,7 @@ class Slidesk < Formula
 
     on_macos do
         url "https://github.com/gouz/slidesk/releases/download/1.6.3/release_mac.tar.gz"
-        sha256 "0df82a7c0ec95e9e8124af7a791899834596ac49a5e4fbce6082e7835012df1a"
+        sha256 "ff055e63ad22d6907b8aa8f96ad78eb42670aae36544673e9f5a0675cba36e15"
 
         def install
             bin.install "slidesk" => "slidesk"

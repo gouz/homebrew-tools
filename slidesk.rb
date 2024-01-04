@@ -1,10 +1,10 @@
 class Slidesk < Formula
     desc "Speaker companion"
     homepage "https://github.com/gouz/homebrew-tools"
-    version "2.3.10"
+    version "2.3.11"
     on_macos do
-        url "https://github.com/gouz/slidesk/releases/download/2.3.10/release_mac.tar.gz"
-        sha256 "9119572d9883066b7323d797a2b5431f36144478ec39481bc08de419cbaf4c2b"
+        url "https://github.com/gouz/slidesk/releases/download/2.3.11/release_mac.tar.gz"
+        sha256 "43aa0ce42c05f014ed6355ee135e00a998280e91190d46cd05e492c2705c4e40"
 
         def install
             bin.install "slidesk" => "slidesk"

@@ -1,4 +1,4 @@
-class choc < Formula
+class Choc < Formula
     desc "ConferenceHall organization companion"
     homepage "https://github.com/gouz/homebrew-tools"
     version "0.1.0"

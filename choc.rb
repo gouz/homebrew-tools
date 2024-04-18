@@ -7,7 +7,7 @@ class Choc < Formula
         sha256 "8e684ae15d46fce52e76b6363d43431f74d9d0fea182e9a512fcd1a97254e72d"
 
         def install
-            bin.install "coc" => "coc"
+            bin.install "choc" => "choc"
         end
     end
 end

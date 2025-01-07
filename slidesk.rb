@@ -6,7 +6,7 @@ class Slidesk < Formula
     version "2.10.1"
     on_macos do
         on_arm do
-            url MAC_ARM_URL
+            url MAC_ARM_UR
             sha256 "4e105209211f6dc6f2d5325f5a872aa751b1e9a7b24851b584be35b02b8705ce"
         end
         on_intel do

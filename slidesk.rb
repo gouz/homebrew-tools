@@ -16,4 +16,12 @@ class Slidesk < Formula
             bin.install "slidesk" => "slidesk"
         end
     end
+    on_linux do
+        url "https://github.com/slidesk/slidesk/releases/download/2.10.1/slidesk_2.10.1_amd64.deb"
+        sha256 "6298f827c63782252644d6b7ec9ff762a8a0d93354ab30362ea929638666363d"
+
+        def install
+            bin.install "slidesk" => "slidesk"
+        end
+    end
 end

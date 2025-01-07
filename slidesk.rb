@@ -1,4 +1,5 @@
 MAC_ARM_URL = "https://github.com/gouz/slidesk/releases/download/2.10.1/release_mac.tar.gz"
+MAC_AMD_URL = "https://github.com/gouz/slidesk/releases/download/2.10.1/release_mac_intel.tar.gz"
 
 class Slidesk < Formula
     desc "Speaker companion"
@@ -6,11 +7,11 @@ class Slidesk < Formula
     version "2.10.1"
     on_macos do
         on_arm do
-            url MAC_ARM_UR
+            url MAC_ARM_URL
             sha256 "4e105209211f6dc6f2d5325f5a872aa751b1e9a7b24851b584be35b02b8705ce"
         end
         on_intel do
-            url "https://github.com/gouz/slidesk/releases/download/2.10.1/release_mac_intel.tar.gz"
+            url MAC_AMD_UR
             sha256 "738efe5ab5753d56b35b0562fb4c0a807f7bda3dde0e72a5ec3911d12944356d"
         end
 

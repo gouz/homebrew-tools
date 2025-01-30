@@ -22,16 +22,16 @@ class Slidesk < Formula
     end
     on_linux do
         on_arm do
-            @@file_name = "slidesk_linux_arm"
+            @@file_name = "slidesk_linux-arm"
             sha256 LINUX_ARM_SHA
         end
         on_intel do
-            @@file_name = "slidesk_ubuntu"
+            @@file_name = "slidesk_linux-amd"
             sha256 LINUX_AMD_SHA
         end
     end
 
-    url "#{BASE_URL}/#{@@file_name}.tar.gz"
+    url "#{BASE_URL}/#{@@file_name}"
 
     def install
         bin.install "slidesk" => "slidesk"

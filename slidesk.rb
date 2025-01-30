@@ -12,21 +12,21 @@ class Slidesk < Formula
 
     on_macos do
         on_arm do
-            @@file_name = "release_mac"
+            @@file_name = "slidesk_mac"
             sha256 MAC_ARM_SHA
         end
         on_intel do
-            @@file_name = "release_mac_intel"
+            @@file_name = "slidesk_mac_intel"
             sha256 MAC_AMD_SHA
         end
     end
     on_linux do
         on_arm do
-            @@file_name = "release_linux_arm"
+            @@file_name = "slidesk_linux_arm"
             sha256 LINUX_ARM_SHA
         end
         on_intel do
-            @@file_name = "release_ubuntu"
+            @@file_name = "slidesk_ubuntu"
             sha256 LINUX_AMD_SHA
         end
     end

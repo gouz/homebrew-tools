@@ -31,9 +31,9 @@ class Slidesk < Formula
         end
     end
 
-    url "#{BASE_URL}/#{@@file_name}"
+    url "#{BASE_URL}/#{@@file_name}.tar.gz"
 
     def install
-        bin.install "#{@@file_name}" => "slidesk"
+        bin.install "#{@@file_name}.tar.gz" => "slidesk"
     end
 end

@@ -5,10 +5,10 @@ class Slidesk < Formula
     version "2.11.2"
     BASE_URL = "https://github.com/slidesk/slidesk/releases/download/#{version}"
 
-    MAC_ARM_SHA = "21e05e1fbe2520fcc9f0d598b8385d39da32bfe1abf93a55967b1cc631ea8928"
-    MAC_AMD_SHA = "98a4350d91ced62aa97f56534347fece5f1fe84a12cc4d4c1505af5bea49dbe8"
-    LINUX_ARM_SHA = "d377366495d837a8956ef4911eabeb5130e049c1746c45ec20f906ee0379dc1a"
-    LINUX_AMD_SHA = "d3cd01d4e4c64d43a6798bdde85895f3e08efad35134dccd25bd2134015e6eff"
+    MAC_ARM_SHA = "a5c9a39ec662e2970cbaed620c00e88b5c122afdcc905fcef48fed4504040535"
+    MAC_AMD_SHA = "340da2df05ebf67acd01a07a94ba9c3233c7f578958995eb71306a2161592c8d"
+    LINUX_ARM_SHA = "58eceb2ba54a81e0baf1c753223b4c2f4b4e41ef0ce60f0125f838ba3bc92290"
+    LINUX_AMD_SHA = "fcdd6b9977f60c7128bc93ac9aec937c152115be6057f926657f651a3f956614"
 
     on_macos do
         on_arm do

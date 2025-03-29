@@ -2,13 +2,13 @@ class Slidesk < Formula
     desc "Speaker companion"
     homepage "https://github.com/gouz/homebrew-tools"
 
-    version "2.12.0"
+    version "2.12.1"
     BASE_URL = "https://github.com/slidesk/slidesk/releases/download/#{version}"
 
-    MAC_ARM_SHA = "c998aa653432df71b0f72ba5c0c1a2447870a78d8692b560a577ade8b4942ddd"
-    MAC_AMD_SHA = "614eac80473192f8743fa4f48f752582ac5348c307afb47f0d9b6488ec979d08"
-    LINUX_ARM_SHA = "2e5f9691f743f02605f51a9e36597e6c39cc276a1a391d798940d0ff13a190d2"
-    LINUX_AMD_SHA = "f603d97b807c13b438da28e5809ff44f393805568604b264242e0248a8f54eec"
+    MAC_ARM_SHA = "24ca495c7408c7a7bb68919bcf993d16ed83bb353832653160c64ca62a7c9a92"
+    MAC_AMD_SHA = "efa167aeaee39d9cdbe59e59509a1b240f5aeda88d00a6557e6bdf87511ff6e8"
+    LINUX_ARM_SHA = "ec31170768cbe40135f95bd066543b414e3e514ef916cb0ef9a5b15fb60d71d1"
+    LINUX_AMD_SHA = "831b67ca81d0197e551a07b9353b67337f349df26872b1a559ea7055e8f2621c"
 
     on_macos do
         on_arm do

@@ -4,10 +4,10 @@ class Choc < Formula
     version "0.3.0"
     BASE_URL = "https://github.com/gouz/choc/releases/download/#{version}"
 
-    MAC_ARM_SHA = "636b326315eea3d62c762972369de449410e7cc0940bdea3f3fdecac0c60b130"
-    MAC_AMD_SHA = "738e3972140b5ec3ffb536d65532130d55df9de470e480c37464bba32335d512"
-    LINUX_ARM_SHA = "996965a287fec00c8fdd98f3e529cd7a30ebe9dc8294976219b97d5bcfa1a88d"
-    LINUX_AMD_SHA = "02e6542cccf89f0d2a1190d3580b1ac34323d29062dee68b01b051c78d579a31"
+    MAC_ARM_SHA = "9c96bb541207f8e9a8f5aa8e7d9dea9fe6673045ecde8ff40889eabfab0eba2f"
+    MAC_AMD_SHA = "af6c5ecb0ffda2feef804ffcda3678de97cc42372cc70c20a6d54a4fd4657f7d"
+    LINUX_ARM_SHA = "7797c48577a0ac4a1bdfc0c3d1bf61b7b93d39c3e54f2c6ff91f7a653a328850"
+    LINUX_AMD_SHA = "e7ebf430831be5985ae994a6bf9e05875d26fc1116a430dd98c05a6c3406a6e2"
 
     on_macos do
         on_arm do

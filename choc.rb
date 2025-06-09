@@ -1,19 +1,38 @@
 class Choc < Formula
     desc "ConferenceHall organization companion"
     homepage "https://github.com/gouz/homebrew-tools"
-    version "0.2.0"
+    version "0.3.0"
+    BASE_URL = "https://github.com/gouz/choc/releases/download/#{version}"
+
+    MAC_ARM_SHA = "6d2dab718916602a85a6112be91f90bb002cd97fd77bcc05947da1356f5b8627"
+    MAC_AMD_SHA = "738e3972140b5ec3ffb536d65532130d55df9de470e480c37464bba32335d512"
+    LINUX_ARM_SHA = "996965a287fec00c8fdd98f3e529cd7a30ebe9dc8294976219b97d5bcfa1a88d"
+    LINUX_AMD_SHA = "02e6542cccf89f0d2a1190d3580b1ac34323d29062dee68b01b051c78d579a31"
+
     on_macos do
         on_arm do
-            url "https://github.com/gouz/choc/releases/download/0.2.0/release_mac.tar.gz"
-            sha256 "9fda12e56cd3f751ab54e718ddbb5154c0234beea29c9322a3d847a9f43add48"
+            @@file_name = "choc_mac"
+            sha256 MAC_ARM_SHA
         end
         on_intel do
-            url "https://github.com/gouz/choc/releases/download/0.2.0/release_mac_intel.tar.gz"
-            sha256 "c9fd0ebb854a10420d03e851e703ae5cd40629786968f6e5d41b4b3b3181d21d"
+            @@file_name = "choc_mac_intel"
+            sha256 MAC_AMD_SHA
         end
+    end
+    on_linux do
+        on_arm do
+            @@file_name = "choc_linux-arm"
+            sha256 LINUX_ARM_SHA
+        end
+        on_intel do
+            @@file_name = "choc_linux-amd"
+            sha256 LINUX_AMD_SHA
+        end
+    end
 
-        def install
-            bin.install "choc" => "choc"
-        end
+    url "#{BASE_URL}/#{@@file_name}.tar.gz"
+
+    def install
+        bin.install "#{@@file_name}" => "choc"
     end
 end

@@ -1,13 +1,13 @@
 class Choc < Formula
     desc "ConferenceHall organization companion"
     homepage "https://github.com/gouz/homebrew-tools"
-    version "0.3.0"
+    version "0.3.1"
     BASE_URL = "https://github.com/gouz/choc/releases/download/#{version}"
 
-    MAC_ARM_SHA = "636b326315eea3d62c762972369de449410e7cc0940bdea3f3fdecac0c60b130"
-    MAC_AMD_SHA = "af6c5ecb0ffda2feef804ffcda3678de97cc42372cc70c20a6d54a4fd4657f7d"
-    LINUX_ARM_SHA = "7797c48577a0ac4a1bdfc0c3d1bf61b7b93d39c3e54f2c6ff91f7a653a328850"
-    LINUX_AMD_SHA = "e7ebf430831be5985ae994a6bf9e05875d26fc1116a430dd98c05a6c3406a6e2"
+    MAC_ARM_SHA = "7a331c965482d1a526993646c0d1c045deb01c830c008363b4a51f331a4d7ede"
+    MAC_AMD_SHA = "fab16a84538bf37af7a0a551b87c2548a75fc7dc4dd0c3a3f88ad880042335b0"
+    LINUX_ARM_SHA = "a6e4fdb006df7709de136c3213639f0241a82df20a3e3e25b51f0cf3ca2f3b84"
+    LINUX_AMD_SHA = "9825561dc98f68be3a76ab39abe2dd4e360d9c2587b767c0a6c95fccd691af3e"
 
     on_macos do
         on_arm do

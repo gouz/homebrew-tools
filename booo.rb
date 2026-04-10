@@ -5,10 +5,10 @@ class Booo < Formula
     version "0.0.1"
     BASE_URL = "https://github.com/gouz/booo/releases/download/#{version}"
 
-    MAC_ARM_SHA = "f335b6bbfaf08fd1c59d2c929f336852695781867a006f2cceddc4f9f30c5e2b"
-    MAC_AMD_SHA = "05ccc1c0fda3a71493d2923f21f64a28e220d389f0a39633f7bd0ffeeb2b5a0c"
-    LINUX_ARM_SHA = "2e5b7f5ce01b049e5a365f893d624ed3d89b540063d17ca0fe9e3ce20e32765f"
-    LINUX_AMD_SHA = "f4fb1247675ff029d1eff6c366bc33372cc98e177afa8705227359ea888578ff"
+    MAC_ARM_SHA = "4cd3120c4d10fd7807115de796e04dc1c91b116af619159db04f7e3539a6199e"
+    MAC_AMD_SHA = "80932ef804a68da35b24a62fc54878989e88c2efab92ecf5537df8ba66622ceb"
+    LINUX_ARM_SHA = "f6e675866d4dab408b8cd7f907c4ff347d3fceb9d04540599245a6db0724853d"
+    LINUX_AMD_SHA = "da74e9d316751b44d6c154d3019f3ad9445887d5f438338c430182aa55dd2777"
 
     depends_on "openspec"
     depends_on "opencode"

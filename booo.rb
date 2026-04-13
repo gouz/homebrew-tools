@@ -2,13 +2,13 @@ class Booo < Formula
     desc "IA companion"
     homepage "https://github.com/gouz/homebrew-tools"
 
-    version "0.0.2"
+    version "0.0.3"
     BASE_URL = "https://github.com/gouz/booo/releases/download/#{version}"
 
-    MAC_ARM_SHA = "64514a33df85271bb51523a98d04ea2394d47be16fc7496eae18d038cf118127"
-    MAC_AMD_SHA = "040ad7254a28527cbe4deb0b8c6652637932e6ecb22fe88ca08005dd1db12fbb"
-    LINUX_ARM_SHA = "93a73dd49c3f511fac72e680df9b7a404fef2553e45feef3c9b61df86e7d5244"
-    LINUX_AMD_SHA = "d898a204769bc57028491be0b17798d9c50faf89a29bf4cdad360f57346c8f9d"
+    MAC_ARM_SHA = "fec9e212491f8502676bd84d2367d3356ad0f032b435e319946e879dc4249a17"
+    MAC_AMD_SHA = "167618bded108c463cf5d960f286b3d64742cc7394e0e7b572fa855370dcb5d4"
+    LINUX_ARM_SHA = "7a9429bad1ea587115b1055e86b86e1cad9463c84a9ebd95b0b930007a59d00c"
+    LINUX_AMD_SHA = "2a7b1a86cb887d380c00f8ff17c9f1bbfc8280a4282eb7c9c638ee618b82f6a2"
 
     depends_on "openspec"
     depends_on "opencode"

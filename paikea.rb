@@ -2,7 +2,7 @@ class Paikea < Formula
     desc "A full-screen TUI CLI agent powered by local LLMs via Docker Model Runner"
     homepage "https://github.com/gouz/homebrew-tools"
 
-    version "alpha"
+    version "0.0.1"
     BASE_URL = "https://github.com/gouz/paikea/releases/download/#{version}"
 
     MAC_ARM_SHA = "437d848f46682b0369a3100767bb3a9e8fde0a07a9d22694a110060e2e956c8b"

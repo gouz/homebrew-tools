@@ -5,10 +5,10 @@ class Paikea < Formula
     version "0.0.1"
     BASE_URL = "https://github.com/gouz/paikea/releases/download/#{version}"
 
-    MAC_ARM_SHA = "437d848f46682b0369a3100767bb3a9e8fde0a07a9d22694a110060e2e956c8b"
-    MAC_AMD_SHA = "4c01d9479c114d38ced0b5b558cc7f5988ceffff9c9d299379728db1b9e58693"
-    LINUX_ARM_SHA = "a43eb807dbb3a5d6da5b220d4ac946cf875edb1bbd00feabad904ff000e552b8"
-    LINUX_AMD_SHA = "1366bb60a6394956afe7f412c8ad492f3d7400e15a9956a00f31afda70ed28d5"
+    MAC_ARM_SHA = "f9abb9338aaf05bac38ee4a6d90170c9768e0d698e55fb02e406c4e3de8f239b"
+    MAC_AMD_SHA = "aa1b8e744afbd6d98c39fdcd105c2d66569f58b5a5c1ae8caed65a9d278f2da2"
+    LINUX_ARM_SHA = "7d9108e79bba862a8ec495ee0c84bcb590b5638b70ba88b6fe1f8114c14e4252"
+    LINUX_AMD_SHA = "6c2cdcc49ccc91e820c6bc14b2d3b34282ba2631cd8843df352d3463f02c0491"
 
     on_macos do
         on_arm do

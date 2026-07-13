@@ -1,8 +1,8 @@
 class Paikea < Formula
-    desc "Speaker companion"
+    desc "A full-screen TUI CLI agent powered by local LLMs via Docker Model Runner"
     homepage "https://github.com/gouz/homebrew-tools"
 
-    version "2.16.5"
+    version "0.0.0"
     BASE_URL = "https://github.com/gouz/paikea/releases/download/#{version}"
 
     MAC_ARM_SHA = "be891bec14dcf1452f2cb3f4bab1b444f020cff6bfb7a31be9764e8f2b13d01d"

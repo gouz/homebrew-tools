@@ -2,13 +2,13 @@ class Paikea < Formula
     desc "A full-screen TUI CLI agent powered by local LLMs via Docker Model Runner"
     homepage "https://github.com/gouz/homebrew-tools"
 
-    version "0.0.2"
+    version "0.0.3"
     BASE_URL = "https://github.com/gouz/paikea/releases/download/#{version}"
 
-    MAC_ARM_SHA = "b072e774baf0df410e846403284e60b32ebe8f4bb30f2fbf145a84987d7ec4a7"
-    MAC_AMD_SHA = "bd3974ff499d61473dbbdea4199a8ea84fb4720a49a91b398e91a65a3be80efc"
-    LINUX_ARM_SHA = "4de739469ce39499344f6102a1930282711cdd8755b4a0cff130248b638480a0"
-    LINUX_AMD_SHA = "1aaa1948181de25765fddad45f402e8b8657c03c5e48bf685b6290bcb69c91fa"
+    MAC_ARM_SHA = "6988f864a7fa6d53b93d2d04b81648253a029e8d6041e14a38800eb10958dced"
+    MAC_AMD_SHA = "f10d424c2b6523d59b8e88c89c22a779e513c2808979d1dfe14a7e6394671e22"
+    LINUX_ARM_SHA = "2291795f85123276c5a1cb23fd43493c3bc1938dc372f80c43105307a7497a86"
+    LINUX_AMD_SHA = "976fc23f25a05766deb33a6a6f50bbbb05cf7fa8263b3f1e762e93d0a4d369cd"
 
     on_macos do
         on_arm do
